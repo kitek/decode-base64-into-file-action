@@ -1,0 +1,15 @@
+name: 'Decode base64 into a file.'
+description: 'Decode base64 value and save it into file.'
+inputs:
+  encoded-value:
+    description: 'Base64 encoded value'
+    required: true
+  destination-file:
+    description: 'Destination file path.'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'bell'
+  color: 'blue'

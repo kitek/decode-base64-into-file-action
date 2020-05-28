@@ -1,0 +1,27 @@
+{
+  "name": "decode-base64-info-file-action",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Decode base64 value and save it into file",
+  "main": "src/index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.3"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kitek/decode-base64-into-file-action"
+  },
+  "scripts": {
+    "build": "ncc build src/index.js"
+  },
+  "keywords": [
+    "base64",
+    "decode",
+    "file"
+  ],
+  "author": "Marcin Kitowicz <marcin.kitowicz@gmail.com>",
+  "license": "MIT"
+}
