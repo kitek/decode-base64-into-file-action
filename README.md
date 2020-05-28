@@ -16,8 +16,8 @@ Decode base64 value and save it into a file. It might be useful in cases when we
 
 ```
 - name: Restore firebase.json file
-	uses: kitek/decode-base64-into-file-action@v1  
-	with:
-		encoded-value: ${{ secrets.WEB_FIREBASE_JSON }}
-		destination-file: firebase.json
+  uses: kitek/decode-base64-into-file-action@1.0
+  with:
+    encoded-value: ${{ secrets.WEB_FIREBASE_JSON }}
+    destination-file: firebase.json
 ```
